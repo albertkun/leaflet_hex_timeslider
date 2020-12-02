@@ -12,7 +12,7 @@ https://refreshless.com/nouislider/
 Takes in spatial-temporal point data from a geojson and converts it to a hex representation with start and end dates being scrollable.
 
 ## Installation
-`git clone https://github.com/albertkun/leaflet_hex_timeslider`
+`git clone https://github.com/albertkun/leaflet_hex_timeslider.git`
 
 ### Point data
 A geojson is used for the data, and it should be formatted with a features.geometry.coordinates[] array, as per GeoJSON standards:
