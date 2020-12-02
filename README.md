@@ -1,4 +1,4 @@
-# leaflet_d3_hexbins
+# Leaflet Hex Timeslider
 This is a hex bin implementation of leaflet + d3 + timeslider, using pure vanilla JavaScript with ECMA2006+ standards.
 
 Leaflet + d3 plugin from:
