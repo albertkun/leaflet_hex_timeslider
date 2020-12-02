@@ -1,4 +1,6 @@
 # Leaflet Hex Timeslider
+<img width="664" alt="2020-12-02 02_32_27-Clipboard" src="https://user-images.githubusercontent.com/8574425/100862385-f6086600-3447-11eb-8ecf-9717d8d73be6.png">
+
 This is a hex bin implementation of leaflet + d3 + timeslider, using pure vanilla JavaScript with ECMA2006+ standards.
 
 Leaflet + d3 plugin from:
