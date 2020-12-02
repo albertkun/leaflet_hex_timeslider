@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unhoused Deaths in Los Angeles 2020</title>
+
+		<!-- load css styles -->
+		<link rel="stylesheet" href="./static/leaflet.css" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/solar/bootstrap.min.css" />
+		<link href="./static/nouislider.css" rel="stylesheet">
+		<link href="./static/styles.css" rel="stylesheet">
+
+		<!-- load libraries -->
+		<script src="./static/d3.js" charset="utf-8"></script>
+		<script src="./static/d3-hexbin.js" charset="utf-8"></script>
+		<script src="./static/leaflet-src.js"></script>
+		<script src="./static/nouislider.js"></script>
+		<script src="./static/wNumb.min.js"></script>
+		<script src="./static/leaflet-d3.js" charset="utf-8"></script>
+
+		<!-- load data -->
+		<script src="./SAMPLE_DATA.js" charset="utf-8"></script>
+
+		<!-- this data is not used -->
+		<!-- <script src="../UNHOUSED_DEATHS_LA.js" charset="utf-8"></script> -->
+
+	</head>
+	<body>
+
+		<div id="header">
+			<div>
+			<!-- empty spacer div, can be used for home page icons -->
+			</div>
+			<div id="title">
+				<h2>
+				Houseless Deaths in Los Angeles 2020 - DEMO
+				</h2>
+			</div>
+			<div>
+			<!-- empty spacer div, can be used for social media icons -->
+			</div>
+		</div>
+		<div class="wrapper">
+			<!-- The map element -->
+			<div id="map" style="border: 1px solid #ccc"></div>
+			<div id="map-slider"></div>
+				<div id="hovered">
+					<h2>
+						<h4>
+							<div>
+								<span id="event-start"></span> - <span id="event-end">Dec, 2020</span>
+							</div>
+						</h4>
+						<h3 id="total">Total Houseless Deaths</h3><h2 id="event-total"></h2>
+						<h3>
+							<label> </label>
+						</h3>
+						<h3>
+							<span class="count-label"></span>
+							<span class="count"></span>
+						</h3>
+					</h2>
+				</div>
+				<!-- unused div for clicked on hex, will add more function later -->
+				<!-- <div id="clicked">
+					<h4>
+						<label>Clicked: </label>
+						<span class="count"></span>
+					</h4>
+				</div> -->
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+	<script src="./static/time_arrays.js" charset="utf-8"></script>
+	<script src="./static/init.js" charset="utf-8"></script>
+	<script src="./static/sliderImplmentation.js" charset="utf-8"></script>
+</html>
+
