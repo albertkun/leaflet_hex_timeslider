@@ -15,9 +15,13 @@ Takes in spatial-temporal point data from a geojson and converts it to a hex rep
 `git clone https://github.com/albertkun/leaflet_hex_timeslider.git`
 
 ### Point data
-A geojson is used for the data, and it should be formatted with a features.geometry.coordinates[] array, as per GeoJSON standards:
+A geojson is used for the data, and it should be formatted with a `features.geometry.coordinates[]` array, as per GeoJSON standards:
 https://en.wikipedia.org/wiki/GeoJSON
 
 ### Time data
-The dates should be stored under the `properties` object, as per GeoJSON standards above, the field used is `Date` (case sentitive), with date format of `1/1/2020` or any other ISO standard.
-ex. `json = features.properties.date`
+`dates` should be stored under the `properties` object, as per GeoJSON standards above.
+For example:
+```js
+json = features.properties.Date
+```
+The field used is `Date` (case sentitive), with date format of `1/1/2020` or any other ISO standard.
