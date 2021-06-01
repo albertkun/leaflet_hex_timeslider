@@ -3,8 +3,10 @@
 
 This is a hex bin implementation of leaflet + d3 + nouislider, using vanilla JavaScript with ECM 2016 web standards, so Internet Explorer is not supported.
 
+## Example
 See the example [here](https://albertkun.github.io/leaflet_hex_timeslider/).
 
+## Tools USed
 Leaflet + d3 plugin from:
 https://github.com/Asymmetrik/leaflet-d3
 
